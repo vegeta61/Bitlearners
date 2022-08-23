@@ -1,0 +1,14 @@
+.user-filter-board {
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px #777;
+    font-size: 20px;
+}
+
+.button-margin {
+    width: 100%;
+    margin-top: 37px;
+}
+
+.user-input {
+    width: 80%;
+}

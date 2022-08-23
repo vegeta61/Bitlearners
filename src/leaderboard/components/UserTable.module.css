@@ -1,0 +1,8 @@
+.user-table-container {
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px #777;
+}
+
+.user-table {
+    font-size: 150%;
+}

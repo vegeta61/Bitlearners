@@ -1,0 +1,15 @@
+.login-panel {
+    border: 10px solid #dc3545;
+    width: 28%;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 8px #ccc;
+    background-color: #fff;
+}
+
+.login-links {
+    font-size: 120%;
+    text-decoration: none;
+}

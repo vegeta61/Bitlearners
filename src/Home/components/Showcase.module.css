@@ -1,0 +1,27 @@
+.h-100 {
+    height: 100vh !important;
+    filter: brightness(20%);
+}
+
+.brand-name {
+    font-size: 600%;
+    font-weight: normal;
+    margin-top: -50px;
+}
+
+.brand-description {
+    font-size: 200%;
+}
+
+.showcase-content {
+    padding-bottom: 200px;
+    margin-bottom: 150px;
+    width: 70%;
+    text-align: center;
+    height: 70%;
+}
+
+.website-logo {
+    height: 250px;
+    width: 250px;
+}

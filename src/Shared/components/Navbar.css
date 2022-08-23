@@ -1,0 +1,24 @@
+.separator {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-light .navbar-nav .nav-link {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .nav-link {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .form-control, .btn-success {
+        display: none;
+    }
+    .separator {
+        display: block;
+        color: white;
+    }
+}

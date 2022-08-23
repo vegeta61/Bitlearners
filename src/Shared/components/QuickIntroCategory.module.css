@@ -1,0 +1,23 @@
+.quick-intro {
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px #777;
+}
+
+.video-player {
+    height: 350px;
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px #777;
+}
+
+.quick-intro-section-header {
+    font-size: 250%;
+}
+
+.quick-intro-section-description {
+    font-size: 120%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

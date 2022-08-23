@@ -1,25 +1,47 @@
-import logo from './logo.svg';
+//Pages import
+import IndexPage from './Home/IndexPage';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import React from 'react';
+
+import Footer from './Shared/components/Footer';
+import NavbarBitlearners from './Shared/components/Navbar';
+import InterviewPreparationPage from './interview-preparations/pages/InterviewPreparationPage';
+import LeaderboardPage from './leaderboard/pages/LeaderboardPage';
+import CompetitionsPage from './competitions/pages/CompetitionsPage';
+
+import DiscussionRoutes from './discussion/DiscussionRoutes';
+import AuthRoutes from './Authentication/AuthRoutes';
+import CoursesRoutes from './Courses/CoursesRoutes';
+
+
 import './App.css';
 
+
+const discussionRoutes = DiscussionRoutes();
+const authRoutes = AuthRoutes();
+const coursesRoutes = CoursesRoutes();
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Router>
+      <NavbarBitlearners />
+      <Routes>
+          <Route path='/' element={<IndexPage />} />
+          { authRoutes }
+          <Route path="/interview-preparations" element={<InterviewPreparationPage />} />
+          <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/competitions" element={<CompetitionsPage />} />
+          {coursesRoutes}
+  
+          {discussionRoutes}
+      </Routes>
+
+      <Footer />
+  </Router>
 }
 
 export default App;

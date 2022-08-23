@@ -1,0 +1,28 @@
+.footer-content {
+    width: 23%;
+}
+
+.quick-links ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.quick-links ul li {
+    padding: 3px;
+}
+
+.m-20 {
+    margin-top: 22px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon-item {
+    font-size: 30px !important;
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+}

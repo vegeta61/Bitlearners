@@ -1,0 +1,12 @@
+.leaderboard-winner {
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px #777;
+}
+
+.position-image {
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    height: 100px;
+    width: 100px;
+}
